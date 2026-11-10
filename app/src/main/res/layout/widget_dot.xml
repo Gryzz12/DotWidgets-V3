@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Un solo widget: toda la imagen se pinta en un bitmap (img) y encima se colocan,
+  con márgenes calculados en código, las zonas táctiles.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_preview">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name" />
+
+    <ProgressBar
+        android:id="@+id/eq"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="top|start"
+        android:minWidth="1dp"
+        android:minHeight="1dp"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:indeterminateDrawable="@drawable/eq_anim"
+        android:visibility="gone" />
+
+    <FrameLayout android:id="@+id/hitClock" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitWeather" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitProgress" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitChips" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitGrid" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitLoc" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitSaver" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitMusic" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitPrev" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitPlay" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitNext" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+    <FrameLayout android:id="@+id/hitTheme" android:layout_width="0dp" android:layout_height="0dp" android:layout_gravity="top|start" />
+</FrameLayout>

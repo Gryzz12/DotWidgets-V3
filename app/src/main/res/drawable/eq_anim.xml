@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ecualizador de puntos: lo anima un ProgressBar indeterminado en el widget -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/eq_0" android:duration="140" />
+    <item android:drawable="@drawable/eq_1" android:duration="140" />
+    <item android:drawable="@drawable/eq_2" android:duration="140" />
+    <item android:drawable="@drawable/eq_3" android:duration="140" />
+    <item android:drawable="@drawable/eq_4" android:duration="140" />
+    <item android:drawable="@drawable/eq_5" android:duration="140" />
+    <item android:drawable="@drawable/eq_6" android:duration="140" />
+    <item android:drawable="@drawable/eq_7" android:duration="140" />
+    <item android:drawable="@drawable/eq_8" android:duration="140" />
+    <item android:drawable="@drawable/eq_9" android:duration="140" />
+</animation-list>

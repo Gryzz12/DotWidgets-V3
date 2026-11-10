@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dot Widgets</string>
+    <string name="w_dot">Dot · Todo</string>
+    <string name="d_dot">Reloj, tiempo, progreso, calendario y botones. Ideal 5×3.</string>
+    <string name="w_clock">Dot · Reloj y tiempo</string>
+    <string name="d_clock">Hora, arco del sol y temperatura.</string>
+    <string name="w_progress">Dot · Progreso</string>
+    <string name="d_progress">Puntos de progreso del año, mes, día y hora.</string>
+    <string name="w_calendar">Dot · Calendario</string>
+    <string name="d_calendar">Mes con el día de hoy. Abre Google Calendar.</string>
+    <string name="w_clockprog">Dot · Reloj y progreso</string>
+    <string name="d_clockprog">Hora con arco del sol junto al progreso del día.</string>
+    <string name="w_buttons">Dot · Botones</string>
+    <string name="d_buttons">Ubicación, ahorro de batería y tema.</string>
+    <string name="w_music">Dot · Todo + música</string>
+    <string name="d_music">Todo lo del principal más la canción que suena con portada y controles.</string>
+    <string name="w_musicsq">Dot · Música</string>
+    <string name="d_musicsq">Portada de la canción. Toca a la izquierda o derecha para cambiar de canción y en el centro para pausar.</string>
+    <string name="w_ctm">Dot · Calendario, tiempo y música</string>
+    <string name="d_ctm">Temperatura arriba, calendario y la canción que suena abajo.</string>
+    <string name="w_dash">Dot · Hora, tiempo, música y calendario</string>
+    <string name="d_dash">Hora, portada cuadrada con temperatura al lado y calendario.</string>
+    <string name="w_ccm">Dot · Hora, calendario y música</string>
+    <string name="d_ccm">Hora arriba, calendario y la canción que suena abajo.</string>
+    <string name="w_mini">Dot · Día, hora, calendario y música</string>
+    <string name="d_mini">Día y hora en pequeño, la semana y la canción a lo ancho abajo. 2 filas.</string>
+    <string name="w_empty">Dot · Vacío</string>
+    <string name="d_empty">Totalmente transparente, para rellenar huecos. Cámbialo al tamaño que necesites.</string>
+</resources>
